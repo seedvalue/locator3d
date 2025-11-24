@@ -466,7 +466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &124735883
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1196,9 +1196,48 @@ MonoBehaviour:
   arrow3D: {fileID: 0}
   gpsManager: {fileID: 0}
   sensorsManager: {fileID: 0}
-  highAccuracyColor: {r: 0, g: 1, b: 0, a: 1}
-  mediumAccuracyColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  lowAccuracyColor: {r: 1, g: 0, b: 0, a: 1}
+  highAccuracyColor:
+    r: 0
+    g: 1
+    b: 0
+    a: 1
+  mediumAccuracyColor:
+    r: 1
+    g: 0.92156863
+    b: 0.015686275
+    a: 1
+  lowAccuracyColor:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  gpsData:
+    latitude: 0
+    longitude: 0
+    altitude: 0
+    accuracy: 999
+    speed: 0
+    bearing: 0
+    hasValidData: 0
+    isTracking: 0
+    updateCount: 0
+    statusMessage: Initializing...
+  sensorData:
+    accelerometer: {x: 0, y: 0, z: 0}
+    gyroscope: {x: 0, y: 0, z: 0}
+    magnetometer: {x: 0, y: 0, z: 0}
+    gravity: {x: 0, y: 0, z: 0}
+    linearAcceleration: {x: 0, y: 0, z: 0}
+    rotationVector: {x: 0, y: 0, z: 0}
+    gameRotationVector: {x: 0, y: 0, z: 0}
+    geomagneticRotationVector: {x: 0, y: 0, z: 0}
+    orientation: {x: 0, y: 0, z: 0}
+    light: 0
+    proximity: 0
+    pressure: 0
+    humidity: 0
+    ambientTemperature: 0
+  isInitialized: 0
 --- !u!4 &331784203
 Transform:
   m_ObjectHideFlags: 0
@@ -2573,7 +2612,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 85192d39ed6caa0458ee1432bf97cd16, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3799,7 +3838,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 85192d39ed6caa0458ee1432bf97cd16, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5272,7 +5311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1977195439
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5312,9 +5351,48 @@ MonoBehaviour:
   arrow3D: {fileID: 1923283708}
   gpsManager: {fileID: 86294969}
   sensorsManager: {fileID: 1419625104}
-  highAccuracyColor: {r: 0, g: 1, b: 0, a: 1}
-  mediumAccuracyColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  lowAccuracyColor: {r: 1, g: 0, b: 0, a: 1}
+  highAccuracyColor:
+    r: 0
+    g: 1
+    b: 0
+    a: 1
+  mediumAccuracyColor:
+    r: 1
+    g: 0.92156863
+    b: 0.015686275
+    a: 1
+  lowAccuracyColor:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  gpsData:
+    latitude: 0
+    longitude: 0
+    altitude: 0
+    accuracy: 999
+    speed: 0
+    bearing: 0
+    hasValidData: 0
+    isTracking: 0
+    updateCount: 0
+    statusMessage: Initializing...
+  sensorData:
+    accelerometer: {x: 0, y: 0, z: 0}
+    gyroscope: {x: 0, y: 0, z: 0}
+    magnetometer: {x: 0, y: 0, z: 0}
+    gravity: {x: 0, y: 0, z: 0}
+    linearAcceleration: {x: 0, y: 0, z: 0}
+    rotationVector: {x: 0, y: 0, z: 0}
+    gameRotationVector: {x: 0, y: 0, z: 0}
+    geomagneticRotationVector: {x: 0, y: 0, z: 0}
+    orientation: {x: 0, y: 0, z: 0}
+    light: 0
+    proximity: 0
+    pressure: 0
+    humidity: 0
+    ambientTemperature: 0
+  isInitialized: 0
 --- !u!1 &2068226788
 GameObject:
   m_ObjectHideFlags: 0
